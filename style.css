@@ -96,26 +96,26 @@ body{
     color: #2B2B2B;
 }
  
-.left-hard, .left-soft{
+.left-hard, .left-soft, .left-LIGHT, .left-STANDART, .left-VIP, .left-CON, .left-VIP{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
  
-.left-hard-title, .left-soft-title{
+.left-hard-title, .left-soft-title, .left-LIGHT-title, .left-STANDART-title, .left-VIP-title, .left-CON-title, .left-SMM-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
  
-.left-hard-title-text, .left-soft-title-text{
+.left-hard-title-text, .left-soft-title-text, .left-LIGHT-title-text, .left-STANDART-title-text, .left-VIP-title-text, .left-CON-title-text, .left-SMM-title-text{
     font-size: 18px;
     color: #767676;
 }
  
-.left-hard-title-icon, .left-soft-title-icon{
+.left-hard-title-icon, .left-soft-title-icon, .left-LIGHT-title-icon, .left-STANDART-title-icon, .left-VIP-title-icon, .left-CON-title-icon, .left-SMM-title-icon{
     width: 12px;
     height: 12px;
     background-color: #767676;
@@ -123,18 +123,19 @@ body{
     padding: 3px;
 }
  
-.left-hard-skills, .left-soft-skills{
+.left-hard-skills, .left-soft-skills, .left-LIGHT-skills, .left-STANDART-skills, .left-VIP-skills, .left-CON-skills, .left-SMM-skills{
     display: none;
     flex-direction: column;
     gap: 5px;
 }
  
-.left-hard-skills-text, .left-soft-skills-text{
+.left-hard-skills-text, .left-soft-skills-text, .left-LIGHT-skills-text, .left-STANDART-skills-text, .left-VIP-skills-text, .left-CON-skills-text, .left-SMM-skills-text{
     font-size: 15px;
     color: #767676;
     padding: 5px;
     border: 1px #fac1b4 solid;
     border-radius: 5px;
+    max-width: 260px;
 }
  
  
