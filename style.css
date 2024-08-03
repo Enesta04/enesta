@@ -211,6 +211,7 @@ body{
 }
  
 .main-about-left-box-item-text{
+    width: 300px;
     font-size: 12px;
     color: #767676;
 }
