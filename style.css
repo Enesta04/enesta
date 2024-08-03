@@ -11,7 +11,7 @@ body{
 .all-content{
     display: flex;
     gap: 10px;
- 
+    overflow: hidden;
     padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
 }
