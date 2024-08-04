@@ -248,7 +248,7 @@ body{
     flex-direction: column;
     gap: 10px;
     border: 2px #450004 solid;
-    border-radius: 10px;
+    border-radius: 14px;
 }
  
 .main-cases-items-img{
