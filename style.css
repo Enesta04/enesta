@@ -97,7 +97,7 @@ body{
     color: #2B2B2B;
 }
  
-.left-hard, .left-soft, .left-LIGHT, .left-STANDART, .left-VIP, .left-CON, .left-VIP{
+.left-hard, .left-soft, .left-LIGHT, .left-STANDART, .left-VIP, .left-CON, .left-SMM{
     display: flex;
     flex-direction: column;
     justify-content: center;
