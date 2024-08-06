@@ -422,14 +422,14 @@ body{
     gap: 5px;
     margin-top: 50px;
     padding: 5px;
-    background-color: rgba(205, 214, 219, 0.7);
     margin-left: auto;
     border-radius: 3px 0 0 3px;
 }
 
 .content-rating-card-item-rating-icon{
-    width: 24px;
-    height: 24px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .content-rating-card-item-info{
