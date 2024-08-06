@@ -356,7 +356,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -369,8 +369,8 @@ body{
 }
 
 .content-rating-text-subtitle{
-    color: #F2BE22;
-    font-size: 16px;
+    color: #9b040d;
+    font-size: 20px;
     font-family: sans-serif;
 }
 
