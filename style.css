@@ -300,15 +300,14 @@ body{
     gap: 10px;
     border: 2px #767676 solid;
     border-radius: 10px;
-    padding: 10px;
     background-color: #fff;
 }
  
 .main-services-items-img{
     width: 300px;
     height: 200px;
-    border-radius: 10px;
-    border: 1px #767676 solid;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px #767676 solid;
 }
  
 .main-services-items-footer{
