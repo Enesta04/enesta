@@ -345,6 +345,136 @@ body{
     color: #2B2B2B;
     max-width: 260px;
 }
+
+
+
+
+
+
+.content-rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-rating-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-rating-text-subtitle{
+    color: #F2BE22;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.content-rating-text-title{
+    font-family: sans-serif;
+}
+
+.content-rating-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.content-rating-card-item-first{
+    background-image: url("assests/coffee.jpg");
+}
+
+.content-rating-card-item-second{
+    background-image: url("assests/beauty.jpg");
+}
+
+.content-rating-card-item-third{
+    background-image: url("assests/creativity.jpg");
+}
+
+.content-rating-card-item{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    width: 320px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-rating-card-item:hover .content-rating-card-item-info{
+    padding: 20px 20px 40px 20px;
+    transition: 0.5s;
+}
+
+.content-rating-card-item-rating{
+    display: flex;
+    /*justify-content: end;*/
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+    padding: 5px;
+    background-color: rgba(205, 214, 219, 0.7);
+    margin-left: auto;
+    border-radius: 3px 0 0 3px;
+}
+
+.content-rating-card-item-rating-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.content-rating-card-item-info{
+    background-color: rgba(205, 214, 219, 0.3);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.content-rating-card-item-info-title{
+    color: #fdfdfd;
+    font-family: sans-serif;
+}
+
+.content-rating-card-item-info-subtitle{
+    color: #fdfdfd;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.content-rating-card-item-info-price{
+    background-color: rgba(205, 214, 219, 0.5);
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fdfdfd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 @media(max-width: 1440px) {
     .main-menu{
