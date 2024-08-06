@@ -516,6 +516,9 @@ body{
     .content-rating-card-item{
     width: 300px;
     }
+    .content-rating-card-item-info-title{
+        font-size: 16px;
+    }
 }
  
  
