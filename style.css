@@ -383,6 +383,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .content-rating-card-item-first{
