@@ -509,7 +509,10 @@ body {
     color: #fdfdfd;
 }
 
-
+.main-video-box-frame {
+    width: 560px;
+    height: 320px;
+}
 
 
 
@@ -544,6 +547,11 @@ body {
         width: 100%;
         min-height: 100%;
     }
+
+    .main-video-box-frame {
+        width: 400px;
+        height: 220px;
+    }
 }
 
 @media(max-width: 425px) {
@@ -565,5 +573,10 @@ body {
 
     .content-rating-card-item-info-title {
         font-size: 16px;
+    }
+
+    .main-video-box-frame {
+        width: 320px;
+        height: 200px;
     }
 }
