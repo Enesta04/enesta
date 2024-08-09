@@ -1,27 +1,27 @@
-body{
+body {
     background-color: #E5E5E5;
 }
- 
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
- 
-.all-content{
+
+.all-content {
     display: flex;
     gap: 10px;
     overflow: hidden;
     padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
 }
- 
+
 /*left*/
-.line{
+.line {
     border-bottom: 1px #450004 solid;
 }
- 
-.left{
+
+.left {
     padding: 20px 40px;
     width: 290px;
     min-height: 100vh;
@@ -30,52 +30,55 @@ body{
     gap: 20px;
     background-color: #FFFFFF;
 }
- 
-.left-about{
+
+.left-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
- 
-.left-about-photo{
+
+.left-about-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
- 
-.left-about-title{
+
+.left-about-title {
     font-size: 18px;
     color: #2B2B2B;
 }
- 
-.left-about-subtitle{
+
+.left-about-subtitle {
     font-size: 15px;
     color: #767676;
 }
- 
-.left-about-contact{
+
+.left-about-contact {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
- 
-.left-about-contact-icon{
+
+.left-about-contact-icon {
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
- 
-.left-info{
+
+.left-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
     min-width: 260px;
 }
- 
-.left-info-age, .left-info-address, .left-info-email, .left-info-tel{
+
+.left-info-age,
+.left-info-address,
+.left-info-email,
+.left-info-tel {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,54 +86,96 @@ body{
     border-radius: 5px;
     padding-right: 5px;
 }
- 
-.left-info-age-title, .left-info-address-title, .left-info-email-title, .left-info-tel-title{
+
+.left-info-age-title,
+.left-info-address-title,
+.left-info-email-title,
+.left-info-tel-title {
     padding: 5px 7px;
     border-radius: 3px;
     font-size: 15px;
     background-color: #450004;
     color: #ffffff;
 }
- 
-.left-info-age-subtitle, .left-info-address-subtitle, .left-info-email-subtitle, .left-info-tel-subtitle{
+
+.left-info-age-subtitle,
+.left-info-address-subtitle,
+.left-info-email-subtitle,
+.left-info-tel-subtitle {
     font-size: 15px;
     color: #2B2B2B;
 }
- 
-.left-hard, .left-soft, .left-LIGHT, .left-STANDART, .left-VIP, .left-CON, .left-SMM{
+
+.left-hard,
+.left-soft,
+.left-LIGHT,
+.left-STANDART,
+.left-VIP,
+.left-CON,
+.left-SMM {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
- 
-.left-hard-title, .left-soft-title, .left-LIGHT-title, .left-STANDART-title, .left-VIP-title, .left-CON-title, .left-SMM-title{
+
+.left-hard-title,
+.left-soft-title,
+.left-LIGHT-title,
+.left-STANDART-title,
+.left-VIP-title,
+.left-CON-title,
+.left-SMM-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
- 
-.left-hard-title-text, .left-soft-title-text, .left-LIGHT-title-text, .left-STANDART-title-text, .left-VIP-title-text, .left-CON-title-text, .left-SMM-title-text{
+
+.left-hard-title-text,
+.left-soft-title-text,
+.left-LIGHT-title-text,
+.left-STANDART-title-text,
+.left-VIP-title-text,
+.left-CON-title-text,
+.left-SMM-title-text {
     font-size: 18px;
     color: #767676;
 }
- 
-.left-hard-title-icon, .left-soft-title-icon, .left-LIGHT-title-icon, .left-STANDART-title-icon, .left-VIP-title-icon, .left-CON-title-icon, .left-SMM-title-icon{
+
+.left-hard-title-icon,
+.left-soft-title-icon,
+.left-LIGHT-title-icon,
+.left-STANDART-title-icon,
+.left-VIP-title-icon,
+.left-CON-title-icon,
+.left-SMM-title-icon {
     width: 12px;
     height: 12px;
     background-color: #e0e0e0;
     border-radius: 50%;
     padding: 3px;
 }
- 
-.left-hard-skills, .left-soft-skills, .left-LIGHT-skills, .left-STANDART-skills, .left-VIP-skills, .left-CON-skills, .left-SMM-skills{
+
+.left-hard-skills,
+.left-soft-skills,
+.left-LIGHT-skills,
+.left-STANDART-skills,
+.left-VIP-skills,
+.left-CON-skills,
+.left-SMM-skills {
     display: none;
     flex-direction: column;
     gap: 5px;
 }
- 
-.left-hard-skills-text, .left-soft-skills-text, .left-LIGHT-skills-text, .left-STANDART-skills-text, .left-VIP-skills-text, .left-CON-skills-text, .left-SMM-skills-text{
+
+.left-hard-skills-text,
+.left-soft-skills-text,
+.left-LIGHT-skills-text,
+.left-STANDART-skills-text,
+.left-VIP-skills-text,
+.left-CON-skills-text,
+.left-SMM-skills-text {
     font-size: 15px;
     color: #767676;
     padding: 5px;
@@ -138,12 +183,12 @@ body{
     border-radius: 5px;
     max-width: 260px;
 }
- 
- 
- 
- 
+
+
+
+
 /*main*/
-.main{
+.main {
     padding: 20px 60px;
     display: flex;
     flex-direction: column;
@@ -151,8 +196,8 @@ body{
     gap: 20px;
     background-color: #FFFFFF;
 }
- 
-.main-menu{
+
+.main-menu {
     padding: 10px 40px;
     width: 600px;
     display: flex;
@@ -161,140 +206,142 @@ body{
     background-color: #450004;
     border-radius: 20px;
 }
- 
-.main-menu-link{
+
+.main-menu-link {
     font-size: 15px;
     color: #2B2B2B;
     cursor: pointer;
 }
- 
-.main-about{
+
+.main-about {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
- 
-.main-about-left{
+
+.main-about-left {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
- 
-.main-about-left-title{
+
+.main-about-left-title {
     color: #2B2B2B;
 }
- 
-.main-about-left-subtitle{
+
+.main-about-left-subtitle {
     width: 360px;
     font-size: 15px;
     color: #767676;
 }
- 
-.main-about-left-box{
+
+.main-about-left-box {
     width: 300px;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
- 
-.main-about-left-box-item{
+
+.main-about-left-box-item {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
- 
-.main-about-left-box-item-icon{
+
+.main-about-left-box-item-icon {
     width: 12px;
     height: 12px;
 }
- 
-.main-about-left-box-item-text{
+
+.main-about-left-box-item-text {
     width: 300px;
     font-size: 12px;
     color: #767676;
 }
- 
-.main-about-right-img{
+
+.main-about-right-img {
     border-radius: 0 30px 0 30px;
     width: 260px;
     height: 340px;
 }
- 
-.main-cases{
+
+.main-cases {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
- 
-.main-cases-title{
+
+.main-cases-title {
     color: #2B2B2B;
 }
- 
-.main-cases-box{
+
+.main-cases-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
- 
-.main-cases-items{
+
+.main-cases-items {
     display: flex;
     flex-direction: column;
     gap: 10px;
     border: 2px #450004 solid;
     border-radius: 14px;
 }
- 
-.main-cases-items-img{
+
+.main-cases-items-img {
     width: 300px;
     height: 200px;
     border-radius: 10px 10px 0 0;
 }
- 
-.main-cases-items-footer{
+
+.main-cases-items-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px 5px 10px;
 }
- 
-.main-cases-items-footer-icon{
+
+.main-cases-items-footer-icon {
     width: 70px;
     height: 50px;
 }
- 
-.main-cases-items-footer-text{
+
+.main-cases-items-footer-text {
     font-size: 15px;
     color: #2B2B2B;
     width: 200px;
 }
- 
-.main-services{
+
+.main-services,
+.main-video {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
- 
-.main-services-title{
+
+.main-services-title {
     color: #2B2B2B;
 }
- 
-.main-services-box{
+
+.main-services-box,
+.main-video-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
- 
-.main-services-items{
+
+.main-services-items {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -302,44 +349,44 @@ body{
     border-radius: 12px;
     background-color: #fff;
 }
- 
-.main-services-items-img{
+
+.main-services-items-img {
     width: 300px;
     height: 200px;
     border-radius: 10px 10px 0 0;
     border-bottom: 2px #767676 solid;
 }
- 
-.main-services-items-footer{
+
+.main-services-items-footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 10px 5px 10px;
     gap: 7px;
 }
- 
-.main-services-items-footer-icon{
+
+.main-services-items-footer-icon {
     width: 50px;
     height: 50px;
 }
- 
-.main-services-items-footer-text{
+
+.main-services-items-footer-text {
     font-size: 24px;
     color: #2B2B2B;
 }
- 
-.main-services-items-footer-item{
+
+.main-services-items-footer-item {
     display: flex;
     align-items: center;
     gap: 7px;
 }
- 
-.main-services-items-footer-icon{
+
+.main-services-items-footer-icon {
     width: 8px;
     height: 8px;
 }
- 
-.main-services-items-footer-subtitle{
+
+.main-services-items-footer-subtitle {
     font-size: 15px;
     color: #2B2B2B;
     max-width: 260px;
@@ -350,34 +397,34 @@ body{
 
 
 
-.content-rating{
+.content-rating {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
 }
 
-.content-rating-text{
+.content-rating-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.content-rating-text-subtitle{
+.content-rating-text-subtitle {
     color: #9b040d;
     font-size: 20px;
     font-family: sans-serif;
 }
 
-.content-rating-text-title{
+.content-rating-text-title {
     font-family: sans-serif;
 }
 
-.content-rating-card{
+.content-rating-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -385,19 +432,19 @@ body{
     flex-wrap: wrap;
 }
 
-.content-rating-card-item-first{
+.content-rating-card-item-first {
     background-image: url("assests/coffee.jpg");
 }
 
-.content-rating-card-item-second{
+.content-rating-card-item-second {
     background-image: url("assests/beauty.jpg");
 }
 
-.content-rating-card-item-third{
+.content-rating-card-item-third {
     background-image: url("assests/creativity.jpg");
 }
 
-.content-rating-card-item{
+.content-rating-card-item {
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
@@ -410,12 +457,12 @@ body{
     justify-content: space-between;
 }
 
-.content-rating-card-item:hover .content-rating-card-item-info{
+.content-rating-card-item:hover .content-rating-card-item-info {
     padding: 20px 20px 40px 20px;
     transition: 0.5s;
 }
 
-.content-rating-card-item-rating{
+.content-rating-card-item-rating {
     display: flex;
     /*justify-content: end;*/
     align-items: center;
@@ -426,13 +473,13 @@ body{
     border-radius: 3px 0 0 3px;
 }
 
-.content-rating-card-item-rating-icon{
+.content-rating-card-item-rating-icon {
     width: 60px;
     height: 40px;
     border-radius: 10px;
 }
 
-.content-rating-card-item-info{
+.content-rating-card-item-info {
     background-color: rgba(205, 214, 219, 0.3);
     padding: 20px;
     border-radius: 0 0 10px 10px;
@@ -442,18 +489,18 @@ body{
     transition: 0.5s;
 }
 
-.content-rating-card-item-info-title{
+.content-rating-card-item-info-title {
     color: #fdfdfd;
     font-family: sans-serif;
 }
 
-.content-rating-card-item-info-subtitle{
+.content-rating-card-item-info-subtitle {
     color: #fdfdfd;
     font-size: 14px;
     font-family: sans-serif;
 }
 
-.content-rating-card-item-info-price{
+.content-rating-card-item-info-price {
     background-color: rgba(205, 214, 219, 0.5);
     padding: 8px 12px;
     border-radius: 5px;
@@ -475,46 +522,48 @@ body{
 
 
 
- 
+
 @media(max-width: 1440px) {
-    .main-menu{
+    .main-menu {
         width: 300px;
     }
- 
-    .main-about{
+
+    .main-about {
         gap: 30px;
     }
 }
- 
+
 @media(max-width: 1024px) {
-    .all-content{
+    .all-content {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
- 
-    .left{
+
+    .left {
         width: 100%;
         min-height: 100%;
     }
 }
- 
+
 @media(max-width: 425px) {
-    .main-about-left{
+    .main-about-left {
         width: 300px;
     }
-    .main-about-left-subtitle{
+
+    .main-about-left-subtitle {
         width: 280px;
     }
-    .main-about-left-box-item{
+
+    .main-about-left-box-item {
         width: 280px;
     }
-    .content-rating-card-item{
-    width: 300px;
+
+    .content-rating-card-item {
+        width: 300px;
     }
-    .content-rating-card-item-info-title{
+
+    .content-rating-card-item-info-title {
         font-size: 16px;
     }
 }
- 
- 
